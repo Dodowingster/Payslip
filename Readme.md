@@ -17,9 +17,9 @@ This project provides a simple utility to remove passwords from protected PDF fi
 
 You can install the required library using pip:
 
-
+```
 pip install PyPDF2
-
+```
 
 ## Usage
 
