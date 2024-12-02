@@ -32,21 +32,19 @@ python PDF\ Password\ Remover.ipynb
 
 ## Example
 
-
+```
 def main():
-    # Configuration
     INPUT_PDF = "input.pdf"
     OUTPUT_PDF = "output.pdf"
     PASSWORD = "your_password_here"
     
-    # Process the PDF
     success = remove_pdf_password(INPUT_PDF, OUTPUT_PDF, PASSWORD)
     
     if success:
         print(f"Password removed successfully. Output saved as: {OUTPUT_PDF}")
     else:
         print("Failed to remove PDF password")
-
+```
 
 ## License
 
